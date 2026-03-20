@@ -1,0 +1,37 @@
+{
+  "allowed_transitions": {
+    "scheduled": [
+      "pre_call_requested"
+    ],
+    "pre_call_requested": [
+      "context_loaded"
+    ],
+    "context_loaded": [
+      "strategy_extracted"
+    ],
+    "strategy_extracted": [
+      "campaign_status_built"
+    ],
+    "campaign_status_built": [
+      "commitments_reconciled",
+      "wins_ranked"
+    ],
+    "commitments_reconciled": [
+      "wins_ranked"
+    ],
+    "wins_ranked": [
+      "downturns_explained",
+      "ambiguities_flagged"
+    ],
+    "downturns_explained": [
+      "ambiguities_flagged"
+    ],
+    "ambiguities_flagged": [
+      "agenda_rendered"
+    ],
+    "agenda_rendered": [
+      "awaiting_dp_pre_call_review"
+    ],
+    "awaiting_dp_pre_call_review": []
+  }
+}

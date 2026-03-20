@@ -1,0 +1,13 @@
+{
+  "call_run_id": "sample_callrun",
+  "dp_id": "dp_001",
+  "overrides": [
+    {
+      "section": "Meeting Summary",
+      "original_text": "Original text",
+      "edited_text": "Edited text",
+      "reason_code": "dp_tone_adjustment",
+      "timestamp": "2026-03-13T12:00:00+00:00"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "client_id": "sample_client",
+  "client_name": "Sample Client Co",
+  "industry": "Home Services",
+  "service_mix": [
+    "SEO",
+    "CRO",
+    "Analytics",
+    "Local SEO"
+  ],
+  "north_star_goals": [
+    "More qualified calls",
+    "More qualified form leads"
+  ],
+  "preferred_language_style": "direct and practical",
+  "what_counts_as_a_win": [
+    "Qualified leads",
+    "Launch progress",
+    "Tracking confidence"
+  ],
+  "recurring_concerns": [
+    "Approval delays",
+    "Tracking gaps"
+  ],
+  "recurring_blockers": [
+    "Client legal review"
+  ],
+  "sensitive_topics": [
+    "Missed launch dates"
+  ],
+  "approval_patterns": [
+    "Legal approvals can stall web changes"
+  ],
+  "known_reporting_caveats": [
+    "Legacy form path was historically untagged"
+  ],
+  "preferred_workstream_order": [
+    "SEO / Copy",
+    "Web Development",
+    "Analytics / Tracking",
+    "Local SEO / GBP"
+  ],
+  "sentiment_markers": [
+    "Wants concrete progress",
+    "Does not like vague ETAs"
+  ],
+  "last_updated": "2026-03-13T00:00:00+00:00"
+}

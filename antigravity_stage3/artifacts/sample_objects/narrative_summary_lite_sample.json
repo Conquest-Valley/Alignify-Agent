@@ -1,0 +1,28 @@
+{
+  "recurring_themes": [
+    "launch progress",
+    "tracking cleanup",
+    "approval delays"
+  ],
+  "prior_promises": [
+    "shipping the revised page templates and validating tracking before the next call"
+  ],
+  "unresolved_topics": [
+    "Be careful not to overpromise the review widget timing because legal approval is still open",
+    "Approval delays",
+    "Tracking gaps"
+  ],
+  "prior_resonant_wins": [
+    "Organic sessions were flat but calls from service intent pages improved after content refreshes"
+  ],
+  "continuity_risks": [
+    "Be careful not to overpromise the review widget timing because legal approval is still open",
+    "Client legal review"
+  ],
+  "source_refs": [
+    "src_sample_monthly_report",
+    "src_sample_prior_call",
+    "src_sample_producer_notes"
+  ],
+  "confidence": "high"
+}

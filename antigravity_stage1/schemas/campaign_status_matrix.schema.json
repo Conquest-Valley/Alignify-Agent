@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "title": "CampaignStatusMatrix",
+  "required": [
+    "categories"
+  ],
+  "properties": {
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "category",
+          "completed_since_last_call",
+          "in_progress",
+          "blocked",
+          "waiting_on_client",
+          "queued_next",
+          "risk_level",
+          "quarterly_alignment_score",
+          "alignment_notes",
+          "source_refs"
+        ],
+        "properties": {
+          "category": {
+            "type": "string",
+            "enum": [
+              "Strategy",
+              "SEO / Copy",
+              "Local SEO / GBP",
+              "Web Development",
+              "CRO",
+              "Analytics / Tracking",
+              "Link Building / Authority",
+              "Paid Media",
+              "Social / Community",
+              "Email / CRM",
+              "Approvals / Client Dependencies",
+              "Internal Blockers"
+            ]
+          },
+          "completed_since_last_call": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "in_progress": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "blocked": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "waiting_on_client": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "queued_next": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "risk_level": {
+            "type": "string",
+            "enum": [
+              "low",
+              "medium",
+              "high"
+            ]
+          },
+          "quarterly_alignment_score": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "alignment_notes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "source_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

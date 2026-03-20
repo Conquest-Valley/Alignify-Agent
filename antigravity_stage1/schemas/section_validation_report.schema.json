@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "title": "SectionValidationReport",
+  "required": [
+    "call_run_id",
+    "sections",
+    "overall_valid"
+  ],
+  "properties": {
+    "call_run_id": {
+      "type": "string"
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "section_name",
+          "is_valid",
+          "checks_passed",
+          "checks_failed",
+          "required_follow_up"
+        ],
+        "properties": {
+          "section_name": {
+            "type": "string"
+          },
+          "is_valid": {
+            "type": "boolean"
+          },
+          "checks_passed": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "checks_failed": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "required_follow_up": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "overall_valid": {
+      "type": "boolean"
+    }
+  }
+}

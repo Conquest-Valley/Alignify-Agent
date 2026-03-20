@@ -1,0 +1,37 @@
+{
+  "north_star_goals": [
+    "increase qualified leads from local service pages",
+    "More qualified calls",
+    "More qualified form leads"
+  ],
+  "current_quarter_priorities": [
+    "launch revised service area pages",
+    "fix form tracking and call attribution gaps",
+    "improve GBP engagement in top 5 markets"
+  ],
+  "success_definitions": [
+    "more qualified calls and form leads from service intent pages",
+    "Qualified leads",
+    "Launch progress",
+    "Tracking confidence"
+  ],
+  "workstream_goal_map": [
+    {
+      "workstream": "SEO / Copy",
+      "goal": "launch revised service area pages"
+    }
+  ],
+  "client_value_signals": [
+    "Qualified leads",
+    "Launch progress",
+    "Tracking confidence"
+  ],
+  "active_benchmark_period": "Q1 2026",
+  "source_refs": [
+    "src_sample_current_quarter_strategy",
+    "src_sample_initial_strategy",
+    "src_sample_kickoff",
+    "src_sample_overview"
+  ],
+  "confidence": "high"
+}

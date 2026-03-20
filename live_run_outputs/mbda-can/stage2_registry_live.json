@@ -1,0 +1,143 @@
+{
+  "clients": {
+    "mbda-can": {
+      "client_id": "mbda-can",
+      "client_name": "My Baby Donor Agency",
+      "strategy_doc_refs": [
+        "mbda-can:kickoff",
+        "mbda-can:acct_info",
+        "mbda-can:dossier",
+        "mbda-can:overview",
+        "mbda-can:irg",
+        "mbda-can:initial_strategy"
+      ],
+      "quarterly_strategy_ref": "mbda-can:quarterly_strategy",
+      "overview_doc_refs": [
+        "mbda-can:overview",
+        "mbda-can:acct_info",
+        "mbda-can:dossier",
+        "mbda-can:irg"
+      ],
+      "prior_report_refs": [
+        "mbda-can:source:1"
+      ],
+      "prior_call_note_refs": [
+        "mbda-can:alignment_notes_doc"
+      ],
+      "basecamp_refs": [
+        "mbda-can:basecamp_internal",
+        "mbda-can:basecamp_joint"
+      ],
+      "reporting_refs": [
+        "mbda-can:ga4",
+        "mbda-can:gsc"
+      ],
+      "producer_note_refs": [],
+      "template_ref": "mbda-can:alignment_notes_doc",
+      "memory_ref": "mbda-can:client_memory_stub"
+    }
+  },
+  "sources": {
+    "mbda-can:alignment_notes_doc": {
+      "kind": "external_ref",
+      "location": "https://docs.google.com/document/d/1HArhcW3SSr96yyt83KncfI7KQ1SgdlGHFBMMiA3cPwk/edit?tab=t.yx93s8qlh8ub",
+      "source_class": "narrative_memory",
+      "source_type": "alignment_notes_doc",
+      "label": "Alignment Notes Master Doc"
+    },
+    "mbda-can:kickoff": {
+      "kind": "external_ref",
+      "location": "https://docs.google.com/document/d/11Q1dbnfX1mzpzlwrjD_PpqlkkigFBrkxo9PPIk1tHN0/edit?tab=t.0",
+      "source_class": "foundational_strategy",
+      "source_type": "kickoff_doc",
+      "label": "Kickoff Doc"
+    },
+    "mbda-can:acct_info": {
+      "kind": "external_ref",
+      "location": "https://docs.google.com/document/d/1xRVQvFln2rFPH2pSrD4J3dcBQp797VjkOzhkeZbRMCE/edit?tab=t.0",
+      "source_class": "foundational_strategy",
+      "source_type": "acct_info_doc",
+      "label": "Account Info Doc"
+    },
+    "mbda-can:dossier": {
+      "kind": "external_ref",
+      "location": "https://docs.google.com/spreadsheets/d/1rGwIna6Rc15g-uEZ_XpBSXRui6TK8uyjYdsb6-RB2fU/edit?gid=0#gid=0",
+      "source_class": "foundational_strategy",
+      "source_type": "client_dossier_doc",
+      "label": "Client Dossier Doc"
+    },
+    "mbda-can:overview": {
+      "kind": "external_ref",
+      "location": "https://docs.google.com/document/d/10ZbFkG1-083LVTRLVFuVRL64-4gpcYRHwm-GQE6wmn8/edit?tab=t.0",
+      "source_class": "foundational_strategy",
+      "source_type": "client_overview_doc",
+      "label": "Client Overview Doc"
+    },
+    "mbda-can:irg": {
+      "kind": "external_ref",
+      "location": "https://docs.google.com/document/d/1THPZKMMOASx2IQNVMDoOpXg7rMpEwgEFN-wEvyPDgxQ/edit?tab=t.0",
+      "source_class": "foundational_strategy",
+      "source_type": "irg_doc",
+      "label": "IRG Doc"
+    },
+    "mbda-can:initial_strategy": {
+      "kind": "external_ref",
+      "location": "https://docs.google.com/document/d/1VD8fE16DmcOoDipZWTGfHhXCyj_tonMR7UXBYZ8Sb-g/edit?tab=t.0#heading=h.fq65rybkr3xb",
+      "source_class": "foundational_strategy",
+      "source_type": "initial_strategy_doc",
+      "label": "Initial Strategy"
+    },
+    "mbda-can:quarterly_strategy": {
+      "kind": "external_ref",
+      "location": "https://docs.google.com/document/d/1i4jNOnX4svURpTYHXE1t-vxqQXdTOzkeqrNOIzy7YEk/edit?tab=t.0#heading=h.nb344c9qsuuf",
+      "source_class": "active_strategy",
+      "source_type": "current_quarterly_strategy",
+      "label": "Current Quarterly Strategy"
+    },
+    "mbda-can:basecamp_internal": {
+      "kind": "external_ref",
+      "location": "https://3.basecamp.com/3140673/projects/42667590",
+      "source_class": "live_execution_truth",
+      "source_type": "basecamp_internal",
+      "label": "Basecamp Internal"
+    },
+    "mbda-can:basecamp_joint": {
+      "kind": "external_ref",
+      "location": "https://3.basecamp.com/3140673/projects/42667619",
+      "source_class": "live_execution_truth",
+      "source_type": "basecamp_joint",
+      "label": "Basecamp Joint"
+    },
+    "mbda-can:ga4": {
+      "kind": "external_ref",
+      "location": "494119857.0",
+      "source_class": "live_execution_truth",
+      "source_type": "ga4_target",
+      "label": "GA4 Target"
+    },
+    "mbda-can:gsc": {
+      "kind": "external_ref",
+      "location": "https://search.google.com/search-console?resource_id=sc-domain%3Amybabydonoragency.com",
+      "source_class": "live_execution_truth",
+      "source_type": "gsc_target",
+      "label": "GSC Target"
+    },
+    "mbda-can:source:1": {
+      "kind": "external_ref",
+      "location": "https://scoretask.coalitiontechnologies.com/dashboard/XH2Wj1LUkwF1WFIcK9NPsSOFjCNDBw0NSpvl4nLi",
+      "source_class": "narrative_memory",
+      "source_type": "prior_report",
+      "label": "February Report",
+      "sub_ref_or_tab_optional": null,
+      "priority": "important",
+      "notes_optional": "One row per report link."
+    },
+    "mbda-can:client_memory_stub": {
+      "kind": "inline",
+      "content": "{\"client_id\": \"mbda-can\", \"client_name\": \"My Baby Donor Agency\", \"industry\": \"unknown\", \"service_mix\": [], \"north_star_goals\": [], \"preferred_language_style\": \"default_dp_profile\", \"what_counts_as_a_win\": [], \"recurring_concerns\": [], \"recurring_blockers\": [], \"sensitive_topics\": [], \"approval_patterns\": [], \"known_reporting_caveats\": [], \"preferred_workstream_order\": [], \"sentiment_markers\": [], \"last_updated\": \"2026-03-16\"}",
+      "source_class": "human_nuance",
+      "source_type": "client_memory_stub",
+      "label": "Client Memory Stub"
+    }
+  }
+}

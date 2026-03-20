@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "title": "FreshnessAssessment",
+  "required": [
+    "source_ref",
+    "source_class",
+    "freshness_status",
+    "reason"
+  ],
+  "properties": {
+    "source_ref": {
+      "type": "string"
+    },
+    "source_class": {
+      "type": "string",
+      "enum": [
+        "strategy",
+        "quarterly_strategy",
+        "prior_note",
+        "prior_report",
+        "basecamp",
+        "ga4",
+        "gsc",
+        "producer_note",
+        "other"
+      ]
+    },
+    "freshness_status": {
+      "type": "string",
+      "enum": [
+        "fresh",
+        "acceptable_for_continuity",
+        "stale",
+        "unknown"
+      ]
+    },
+    "reason": {
+      "type": "string"
+    }
+  }
+}

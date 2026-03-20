@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "topic": "Pending approval in Web Development",
+      "why_unclear": "Client dependent or approval dependent work is still open.",
+      "missing_source": "Confirmed approval status or due date",
+      "risk_if_assumed": "The agenda may overpromise delivery timing.",
+      "recommended_input": "Confirm approval owner, status, and expected timing.",
+      "highlight_priority": "high"
+    }
+  ]
+}

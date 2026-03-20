@@ -1,0 +1,24 @@
+{
+  "bands": [
+    "high",
+    "medium",
+    "low"
+  ],
+  "scoring_guide": {
+    "high": {
+      "minimum_evidence_count": 2,
+      "source_agreement_required": true,
+      "contradiction_allowed": false
+    },
+    "medium": {
+      "minimum_evidence_count": 1,
+      "source_agreement_required": false,
+      "contradiction_allowed": false
+    },
+    "low": {
+      "minimum_evidence_count": 0,
+      "source_agreement_required": false,
+      "contradiction_allowed": true
+    }
+  }
+}

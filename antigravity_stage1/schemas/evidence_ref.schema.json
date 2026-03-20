@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "title": "EvidenceRef",
+  "required": [
+    "source_type",
+    "source_ref",
+    "source_timestamp_or_window",
+    "observation",
+    "confidence"
+  ],
+  "properties": {
+    "source_type": {
+      "type": "string"
+    },
+    "source_ref": {
+      "type": "string"
+    },
+    "source_timestamp_or_window": {
+      "type": "string"
+    },
+    "observation": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    }
+  }
+}

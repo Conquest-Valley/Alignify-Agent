@@ -1,0 +1,9 @@
+[
+  "run_initialized",
+  "source_registered",
+  "reporting_window_registered",
+  "validation_version_set",
+  "agenda_render_attempted",
+  "manual_override_recorded",
+  "snapshot_finalized"
+]

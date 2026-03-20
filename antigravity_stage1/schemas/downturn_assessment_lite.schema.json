@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "title": "DownturnAssessmentLite",
+  "required": [
+    "findings"
+  ],
+  "properties": {
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "issue",
+          "metric",
+          "observed_change",
+          "candidate_cause",
+          "support_level",
+          "evidence_refs",
+          "confidence",
+          "needs_human_input"
+        ],
+        "properties": {
+          "issue": {
+            "type": "string"
+          },
+          "metric": {
+            "type": "string"
+          },
+          "observed_change": {
+            "type": "string"
+          },
+          "candidate_cause": {
+            "type": "string"
+          },
+          "support_level": {
+            "type": "string",
+            "enum": [
+              "supported",
+              "partial",
+              "unsupported"
+            ]
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "confidence": {
+            "type": "string",
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          },
+          "needs_human_input": {
+            "type": "boolean"
+          }
+        }
+      }
+    }
+  }
+}

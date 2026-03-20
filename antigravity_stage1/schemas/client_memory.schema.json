@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "title": "ClientMemory",
+  "required": [
+    "client_id",
+    "client_name",
+    "industry",
+    "service_mix",
+    "north_star_goals",
+    "preferred_language_style",
+    "what_counts_as_a_win",
+    "recurring_concerns",
+    "recurring_blockers",
+    "sensitive_topics",
+    "approval_patterns",
+    "known_reporting_caveats",
+    "preferred_workstream_order",
+    "sentiment_markers",
+    "last_updated"
+  ],
+  "properties": {
+    "client_id": {
+      "type": "string"
+    },
+    "client_name": {
+      "type": "string"
+    },
+    "industry": {
+      "type": "string"
+    },
+    "service_mix": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "north_star_goals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "preferred_language_style": {
+      "type": "string"
+    },
+    "what_counts_as_a_win": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "recurring_concerns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "recurring_blockers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sensitive_topics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "approval_patterns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "known_reporting_caveats": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "preferred_workstream_order": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sentiment_markers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

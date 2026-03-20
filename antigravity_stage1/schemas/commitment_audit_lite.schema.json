@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "title": "CommitmentAuditLite",
+  "required": [
+    "commitments"
+  ],
+  "properties": {
+    "commitments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "commitment_id",
+          "source_call_date",
+          "commitment_text",
+          "owner",
+          "due_date",
+          "matched_basecamp_task",
+          "status",
+          "evidence_refs",
+          "confidence"
+        ],
+        "properties": {
+          "commitment_id": {
+            "type": "string"
+          },
+          "source_call_date": {
+            "type": "string",
+            "format": "date"
+          },
+          "commitment_text": {
+            "type": "string"
+          },
+          "owner": {
+            "type": "string"
+          },
+          "due_date": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          },
+          "matched_basecamp_task": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "completed",
+              "active",
+              "blocked",
+              "stale",
+              "unmatched"
+            ]
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "confidence": {
+            "type": "string",
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

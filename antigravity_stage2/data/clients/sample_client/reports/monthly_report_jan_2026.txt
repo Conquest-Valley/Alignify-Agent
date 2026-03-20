@@ -1,0 +1,3 @@
+January report
+Organic sessions were flat but calls from service intent pages improved after content refreshes.
+Tracking confidence remained medium because one legacy form path was untagged.

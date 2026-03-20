@@ -1,0 +1,4 @@
+Initial strategy
+1. Improve local service page visibility.
+2. Clean up conversion tracking and form attribution.
+3. Strengthen GBP coverage and review acquisition.

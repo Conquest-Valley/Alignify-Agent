@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "title": "NarrativeSummaryLite",
+  "required": [
+    "recurring_themes",
+    "prior_promises",
+    "unresolved_topics",
+    "prior_resonant_wins",
+    "continuity_risks",
+    "source_refs",
+    "confidence"
+  ],
+  "properties": {
+    "recurring_themes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "prior_promises": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "unresolved_topics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "prior_resonant_wins": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "continuity_risks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    }
+  }
+}

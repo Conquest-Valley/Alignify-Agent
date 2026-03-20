@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "title": "WinRankedList",
+  "required": [
+    "wins"
+  ],
+  "properties": {
+    "wins": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "win_id",
+          "type",
+          "category",
+          "headline",
+          "description",
+          "strategic_goal_alignment",
+          "client_relevance_score",
+          "freshness_window",
+          "evidence_refs",
+          "confidence"
+        ],
+        "properties": {
+          "win_id": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "performance",
+              "execution",
+              "strategic"
+            ]
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "Strategy",
+              "SEO / Copy",
+              "Local SEO / GBP",
+              "Web Development",
+              "CRO",
+              "Analytics / Tracking",
+              "Link Building / Authority",
+              "Paid Media",
+              "Social / Community",
+              "Email / CRM",
+              "Approvals / Client Dependencies",
+              "Internal Blockers"
+            ]
+          },
+          "headline": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "strategic_goal_alignment": {
+            "type": "string"
+          },
+          "client_relevance_score": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "freshness_window": {
+            "type": "string"
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "confidence": {
+            "type": "string",
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

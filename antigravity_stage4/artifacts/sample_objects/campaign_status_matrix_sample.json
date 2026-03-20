@@ -1,0 +1,95 @@
+{
+  "categories": [
+    {
+      "category": "Analytics / Tracking",
+      "completed_since_last_call": [
+        "call tracking audit and event naming cleanup"
+      ],
+      "in_progress": [],
+      "blocked": [],
+      "waiting_on_client": [],
+      "queued_next": [],
+      "risk_level": "low",
+      "quarterly_alignment_score": 80.0,
+      "alignment_notes": [
+        "Aligned to quarter priority: fix form tracking and call attribution gaps"
+      ],
+      "source_refs": [
+        "src_sample_basecamp"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "category": "Local SEO / GBP",
+      "completed_since_last_call": [],
+      "in_progress": [],
+      "blocked": [],
+      "waiting_on_client": [],
+      "queued_next": [
+        "expand GBP posting plan for top markets"
+      ],
+      "risk_level": "medium",
+      "quarterly_alignment_score": 95.0,
+      "alignment_notes": [
+        "Aligned to quarter priority: improve GBP engagement in top 5 markets"
+      ],
+      "source_refs": [
+        "src_sample_basecamp"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "category": "SEO / Copy",
+      "completed_since_last_call": [],
+      "in_progress": [
+        "service area page rollout for Dallas and Fort Worth"
+      ],
+      "blocked": [],
+      "waiting_on_client": [],
+      "queued_next": [],
+      "risk_level": "low",
+      "quarterly_alignment_score": 80.0,
+      "alignment_notes": [
+        "Aligned to quarter priority: launch revised service area pages"
+      ],
+      "source_refs": [
+        "src_sample_basecamp"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "category": "Strategy",
+      "completed_since_last_call": [],
+      "in_progress": [],
+      "blocked": [],
+      "waiting_on_client": [],
+      "queued_next": [],
+      "risk_level": "low",
+      "quarterly_alignment_score": 0.0,
+      "alignment_notes": [],
+      "source_refs": [],
+      "confidence": "low"
+    },
+    {
+      "category": "Web Development",
+      "completed_since_last_call": [],
+      "in_progress": [],
+      "blocked": [
+        "review widget deployment awaiting client legal approval"
+      ],
+      "waiting_on_client": [
+        "review widget deployment awaiting client legal approval"
+      ],
+      "queued_next": [],
+      "risk_level": "high",
+      "quarterly_alignment_score": 10.0,
+      "alignment_notes": [
+        "Weak or unclear quarterly alignment."
+      ],
+      "source_refs": [
+        "src_sample_basecamp"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

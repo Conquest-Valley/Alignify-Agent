@@ -1,0 +1,36 @@
+{
+  "client_id": "mbda-can",
+  "client_name": "My Baby Donor Agency",
+  "strategy_doc_refs": [
+    "mbda-can:kickoff",
+    "mbda-can:acct_info",
+    "mbda-can:dossier",
+    "mbda-can:overview",
+    "mbda-can:irg",
+    "mbda-can:initial_strategy"
+  ],
+  "quarterly_strategy_ref": "mbda-can:quarterly_strategy",
+  "overview_doc_refs": [
+    "mbda-can:overview",
+    "mbda-can:acct_info",
+    "mbda-can:dossier",
+    "mbda-can:irg"
+  ],
+  "prior_report_refs": [
+    "mbda-can:source:1"
+  ],
+  "prior_call_note_refs": [
+    "mbda-can:alignment_notes_doc"
+  ],
+  "basecamp_refs": [
+    "mbda-can:basecamp_internal",
+    "mbda-can:basecamp_joint"
+  ],
+  "reporting_refs": [
+    "mbda-can:ga4",
+    "mbda-can:gsc"
+  ],
+  "producer_note_refs": [],
+  "template_ref": "mbda-can:alignment_notes_doc",
+  "memory_ref": "mbda-can:client_memory_stub"
+}

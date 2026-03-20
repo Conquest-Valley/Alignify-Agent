@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "title": "StrategySummary",
+  "required": [
+    "north_star_goals",
+    "current_quarter_priorities",
+    "success_definitions",
+    "workstream_goal_map",
+    "client_value_signals",
+    "active_benchmark_period",
+    "source_refs",
+    "confidence"
+  ],
+  "properties": {
+    "north_star_goals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "current_quarter_priorities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "success_definitions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "workstream_goal_map": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "workstream",
+          "goal"
+        ],
+        "properties": {
+          "workstream": {
+            "type": "string"
+          },
+          "goal": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "client_value_signals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "active_benchmark_period": {
+      "type": "string"
+    },
+    "source_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "title": "ContextConflictResolution",
+  "required": [
+    "conflicts"
+  ],
+  "properties": {
+    "conflicts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "topic",
+          "higher_priority_source",
+          "lower_priority_source",
+          "resolution",
+          "reason"
+        ],
+        "properties": {
+          "topic": {
+            "type": "string"
+          },
+          "higher_priority_source": {
+            "type": "string"
+          },
+          "lower_priority_source": {
+            "type": "string"
+          },
+          "resolution": {
+            "type": "string",
+            "enum": [
+              "resolved",
+              "flagged_for_input_required"
+            ]
+          },
+          "reason": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

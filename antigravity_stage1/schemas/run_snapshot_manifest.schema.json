@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "title": "RunSnapshotManifest",
+  "required": [
+    "call_run_id",
+    "client_id",
+    "retrieved_source_refs",
+    "retrieval_timestamps",
+    "reporting_windows",
+    "prior_call_date_used",
+    "quarterly_strategy_ref_used",
+    "template_ref_used",
+    "agenda_version",
+    "validation_version",
+    "snapshot_events"
+  ],
+  "properties": {
+    "call_run_id": {
+      "type": "string"
+    },
+    "client_id": {
+      "type": "string"
+    },
+    "retrieved_source_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "retrieval_timestamps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "source_ref",
+          "retrieved_at"
+        ],
+        "properties": {
+          "source_ref": {
+            "type": "string"
+          },
+          "retrieved_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      }
+    },
+    "reporting_windows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "source_ref",
+          "window_label"
+        ],
+        "properties": {
+          "source_ref": {
+            "type": "string"
+          },
+          "window_label": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "prior_call_date_used": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "quarterly_strategy_ref_used": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "template_ref_used": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "agenda_version": {
+      "type": "string"
+    },
+    "validation_version": {
+      "type": "string"
+    },
+    "snapshot_events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "event_type",
+          "event_at",
+          "details"
+        ],
+        "properties": {
+          "event_type": {
+            "type": "string"
+          },
+          "event_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "details": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

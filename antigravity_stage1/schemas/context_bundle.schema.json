@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "title": "ContextBundle",
+  "required": [
+    "p0_steering",
+    "foundational_strategy",
+    "active_strategy",
+    "narrative_memory",
+    "live_execution_truth",
+    "producer_notes",
+    "provenance_map"
+  ],
+  "properties": {
+    "p0_steering": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "foundational_strategy": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "active_strategy": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "narrative_memory": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "live_execution_truth": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "producer_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "provenance_map": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "context_key",
+          "source_refs"
+        ],
+        "properties": {
+          "context_key": {
+            "type": "string"
+          },
+          "source_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "title": "AgendaDraft",
+  "required": [
+    "type",
+    "call_run_id",
+    "content_sections",
+    "evidence_refs",
+    "confidence",
+    "approved",
+    "rendered_location"
+  ],
+  "properties": {
+    "type": {
+      "type": "string",
+      "const": "pre_call_agenda"
+    },
+    "call_run_id": {
+      "type": "string"
+    },
+    "content_sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "section_name",
+          "content",
+          "evidence_refs",
+          "confidence"
+        ],
+        "properties": {
+          "section_name": {
+            "type": "string"
+          },
+          "content": {
+            "type": "string"
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "confidence": {
+            "type": "string",
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          }
+        }
+      }
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "approved": {
+      "type": "boolean"
+    },
+    "rendered_location": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

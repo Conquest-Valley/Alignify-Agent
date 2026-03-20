@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "title": "ClientWorkspaceBundle",
+  "required": [
+    "client_id",
+    "client_name",
+    "strategy_doc_refs",
+    "quarterly_strategy_ref",
+    "overview_doc_refs",
+    "prior_report_refs",
+    "prior_call_note_refs",
+    "basecamp_refs",
+    "reporting_refs",
+    "producer_note_refs",
+    "template_ref",
+    "memory_ref"
+  ],
+  "properties": {
+    "client_id": {
+      "type": "string"
+    },
+    "client_name": {
+      "type": "string"
+    },
+    "strategy_doc_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "quarterly_strategy_ref": {
+      "type": "string"
+    },
+    "overview_doc_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "prior_report_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "prior_call_note_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "basecamp_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reporting_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "producer_note_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "template_ref": {
+      "type": "string"
+    },
+    "memory_ref": {
+      "type": "string"
+    }
+  }
+}

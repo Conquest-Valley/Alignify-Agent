@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "title": "CategoryAliasMap",
+  "required": [
+    "aliases"
+  ],
+  "properties": {
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "alias",
+          "canonical_category"
+        ],
+        "properties": {
+          "alias": {
+            "type": "string"
+          },
+          "canonical_category": {
+            "type": "string",
+            "enum": [
+              "Strategy",
+              "SEO / Copy",
+              "Local SEO / GBP",
+              "Web Development",
+              "CRO",
+              "Analytics / Tracking",
+              "Link Building / Authority",
+              "Paid Media",
+              "Social / Community",
+              "Email / CRM",
+              "Approvals / Client Dependencies",
+              "Internal Blockers"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

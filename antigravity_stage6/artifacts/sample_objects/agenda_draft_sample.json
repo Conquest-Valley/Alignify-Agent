@@ -1,0 +1,24 @@
+{
+  "type": "pre_call_agenda",
+  "call_run_id": "callrun_sample_123",
+  "content_sections": [
+    {
+      "section_name": "Meeting Summary / Recommended talk track",
+      "content": "- Primary quarter focus: launch revised service area pages\n- Lead value proof: Service area page rollout moved into active launch for Dallas and Fort Worth.",
+      "evidence_refs": [],
+      "confidence": "medium"
+    },
+    {
+      "section_name": "Input Required",
+      "content": "- Review widget launch timing: Confirm the latest client legal review status before stating a launch date.",
+      "evidence_refs": [],
+      "confidence": "low"
+    }
+  ],
+  "evidence_refs": [],
+  "confidence": "medium",
+  "approved": false,
+  "rendered_location": "src_sample_template",
+  "validation_status": "pending_stage7_validation",
+  "template_used": "Alignment Notes Template"
+}

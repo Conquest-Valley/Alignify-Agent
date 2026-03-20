@@ -1,0 +1,5 @@
+Basecamp snapshot 2026-03-13
+In progress: service area page rollout for Dallas and Fort Worth.
+Blocked: review widget deployment awaiting client legal approval.
+Complete: call tracking audit and event naming cleanup.
+Next: expand GBP posting plan for top markets.

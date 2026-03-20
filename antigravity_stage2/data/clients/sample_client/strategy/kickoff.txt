@@ -1,0 +1,4 @@
+Kickoff summary
+North star: increase qualified leads from local service pages.
+Primary channels: SEO, CRO, analytics hygiene.
+Known constraint: slow client approvals on dev changes.

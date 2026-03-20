@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "title": "AmbiguityList",
+  "required": [
+    "items"
+  ],
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "topic",
+          "why_unclear",
+          "missing_source",
+          "risk_if_assumed",
+          "recommended_input",
+          "highlight_priority"
+        ],
+        "properties": {
+          "topic": {
+            "type": "string"
+          },
+          "why_unclear": {
+            "type": "string"
+          },
+          "missing_source": {
+            "type": "string"
+          },
+          "risk_if_assumed": {
+            "type": "string"
+          },
+          "recommended_input": {
+            "type": "string"
+          },
+          "highlight_priority": {
+            "type": "string",
+            "enum": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

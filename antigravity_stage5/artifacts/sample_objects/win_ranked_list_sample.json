@@ -1,0 +1,16 @@
+{
+  "wins": [
+    {
+      "win_id": "win_sample1",
+      "type": "performance",
+      "category": "SEO / Copy",
+      "headline": "Qualified form submissions up 12 percent from service intent pages",
+      "description": "Qualified form submissions up 12 percent from service intent pages",
+      "strategic_goal_alignment": "Success means more qualified calls and form leads from service intent pages.",
+      "client_relevance_score": 0.9,
+      "freshness_window": "current_reporting_window",
+      "evidence_refs": [],
+      "confidence": "medium"
+    }
+  ]
+}

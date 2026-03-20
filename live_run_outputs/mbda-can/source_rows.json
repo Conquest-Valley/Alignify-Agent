@@ -1,0 +1,13 @@
+[
+  {
+    "client_id_or_name": "mbda-can",
+    "source_type": "prior_report",
+    "source_class": "narrative_memory",
+    "source_label": "February Report",
+    "source_ref": "https://scoretask.coalitiontechnologies.com/dashboard/XH2Wj1LUkwF1WFIcK9NPsSOFjCNDBw0NSpvl4nLi",
+    "sub_ref_or_tab_optional": null,
+    "priority": "important",
+    "active": "yes",
+    "notes_optional": "One row per report link."
+  }
+]

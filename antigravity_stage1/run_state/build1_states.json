@@ -1,0 +1,13 @@
+[
+  "scheduled",
+  "pre_call_requested",
+  "context_loaded",
+  "strategy_extracted",
+  "campaign_status_built",
+  "commitments_reconciled",
+  "wins_ranked",
+  "downturns_explained",
+  "ambiguities_flagged",
+  "agenda_rendered",
+  "awaiting_dp_pre_call_review"
+]

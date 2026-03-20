@@ -1,0 +1,42 @@
+{
+  "commitments": [
+    {
+      "commitment_id": "commit_aa8d495125",
+      "source_call_date": "2026-02-20",
+      "commitment_text": "shipping the revised page templates",
+      "owner": "agency",
+      "due_date": null,
+      "matched_basecamp_task": "service area page rollout for Dallas and Fort Worth",
+      "status": "active",
+      "evidence_refs": [
+        {
+          "source_type": "Basecamp",
+          "source_ref": "src_sample_basecamp",
+          "source_timestamp_or_window": "current",
+          "observation": "in_progress: service area page rollout for Dallas and Fort Worth",
+          "confidence": "high"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "commitment_id": "commit_a6359ea723",
+      "source_call_date": "2026-02-20",
+      "commitment_text": "validating tracking before the next call",
+      "owner": "agency",
+      "due_date": null,
+      "matched_basecamp_task": "call tracking audit and event naming cleanup",
+      "status": "completed",
+      "evidence_refs": [
+        {
+          "source_type": "Basecamp",
+          "source_ref": "src_sample_basecamp",
+          "source_timestamp_or_window": "current",
+          "observation": "completed_since_last_call: call tracking audit and event naming cleanup",
+          "confidence": "high"
+        }
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

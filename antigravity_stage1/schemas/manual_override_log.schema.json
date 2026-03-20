@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "title": "ManualOverrideLog",
+  "required": [
+    "call_run_id",
+    "dp_id",
+    "overrides"
+  ],
+  "properties": {
+    "call_run_id": {
+      "type": "string"
+    },
+    "dp_id": {
+      "type": "string"
+    },
+    "overrides": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "section",
+          "original_text",
+          "edited_text",
+          "reason_code",
+          "timestamp"
+        ],
+        "properties": {
+          "section": {
+            "type": "string"
+          },
+          "original_text": {
+            "type": "string"
+          },
+          "edited_text": {
+            "type": "string"
+          },
+          "reason_code": {
+            "type": "string"
+          },
+          "timestamp": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      }
+    }
+  }
+}

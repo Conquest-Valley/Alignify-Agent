@@ -1,0 +1,16 @@
+{
+  "call_run_id": "callrun_demo123",
+  "sections": [
+    {
+      "section_name": "Meeting Summary",
+      "is_valid": true,
+      "checks_passed": [
+        "must_include_strategy_anchor",
+        "must_include_current_truth_anchor"
+      ],
+      "checks_failed": [],
+      "required_follow_up": []
+    }
+  ],
+  "overall_valid": true
+}

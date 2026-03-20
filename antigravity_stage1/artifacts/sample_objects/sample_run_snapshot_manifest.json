@@ -1,0 +1,32 @@
+{
+  "call_run_id": "callrun_demo123",
+  "client_id": "client_abc",
+  "retrieved_source_refs": [
+    "doc_quarterly_q2",
+    "basecamp_board_1"
+  ],
+  "retrieval_timestamps": [
+    {
+      "source_ref": "doc_quarterly_q2",
+      "retrieved_at": "2026-03-13T12:01:00+00:00"
+    }
+  ],
+  "reporting_windows": [
+    {
+      "source_ref": "ga4_main",
+      "window_label": "Last 30 days"
+    }
+  ],
+  "prior_call_date_used": "2026-02-27",
+  "quarterly_strategy_ref_used": "doc_quarterly_q2",
+  "template_ref_used": "gdoc_template_123",
+  "agenda_version": "v1",
+  "validation_version": "v1",
+  "snapshot_events": [
+    {
+      "event_type": "run_initialized",
+      "event_at": "2026-03-13T12:00:00+00:00",
+      "details": "Snapshot opened"
+    }
+  ]
+}

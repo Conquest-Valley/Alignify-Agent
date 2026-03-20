@@ -1,0 +1,139 @@
+{
+  "clients": {
+    "sample_client": {
+      "client_id": "sample_client",
+      "client_name": "Sample Client Co",
+      "strategy_doc_refs": [
+        "src_sample_kickoff",
+        "src_sample_initial_strategy"
+      ],
+      "quarterly_strategy_ref": "src_sample_current_quarter_strategy",
+      "overview_doc_refs": [
+        "src_sample_overview"
+      ],
+      "prior_report_refs": [
+        "src_sample_monthly_report"
+      ],
+      "prior_call_note_refs": [
+        "src_sample_prior_call"
+      ],
+      "basecamp_refs": [
+        "src_sample_basecamp"
+      ],
+      "reporting_refs": [
+        "src_sample_ga4",
+        "src_sample_gsc"
+      ],
+      "producer_note_refs": [
+        "src_sample_producer_notes"
+      ],
+      "template_ref": "src_sample_template",
+      "memory_ref": "src_sample_memory"
+    }
+  },
+  "sources": {
+    "src_sample_kickoff": {
+      "id": "src_sample_kickoff",
+      "kind": "file",
+      "location": "data/clients/sample_client/strategy/kickoff.txt",
+      "source_type": "document",
+      "source_class": "strategy",
+      "label": "Kickoff Notes",
+      "version_identified": true
+    },
+    "src_sample_initial_strategy": {
+      "id": "src_sample_initial_strategy",
+      "kind": "file",
+      "location": "data/clients/sample_client/strategy/initial_strategy.txt",
+      "source_type": "document",
+      "source_class": "strategy",
+      "label": "Initial Strategy",
+      "version_identified": true
+    },
+    "src_sample_overview": {
+      "id": "src_sample_overview",
+      "kind": "file",
+      "location": "data/clients/sample_client/strategy/overview.txt",
+      "source_type": "document",
+      "source_class": "other",
+      "label": "Client Overview"
+    },
+    "src_sample_current_quarter_strategy": {
+      "id": "src_sample_current_quarter_strategy",
+      "kind": "file",
+      "location": "data/clients/sample_client/strategy/current_quarter_strategy_q1_2026.txt",
+      "source_type": "document",
+      "source_class": "quarterly_strategy",
+      "label": "Current Quarter Strategy",
+      "matches_active_benchmark_period": true
+    },
+    "src_sample_monthly_report": {
+      "id": "src_sample_monthly_report",
+      "kind": "file",
+      "location": "data/clients/sample_client/reports/monthly_report_jan_2026.txt",
+      "source_type": "report",
+      "source_class": "prior_report",
+      "label": "January Monthly Report"
+    },
+    "src_sample_prior_call": {
+      "id": "src_sample_prior_call",
+      "kind": "file",
+      "location": "data/clients/sample_client/notes/alignment_call_2026_02_20.txt",
+      "source_type": "note",
+      "source_class": "prior_note",
+      "label": "Prior Alignment Call"
+    },
+    "src_sample_basecamp": {
+      "id": "src_sample_basecamp",
+      "kind": "file",
+      "location": "data/clients/sample_client/execution/basecamp_board_2026_03_13.txt",
+      "source_type": "basecamp",
+      "source_class": "basecamp",
+      "label": "Basecamp Snapshot",
+      "current_run_fetch": true
+    },
+    "src_sample_ga4": {
+      "id": "src_sample_ga4",
+      "kind": "file",
+      "location": "data/clients/sample_client/execution/ga4_2026_02_01_to_2026_02_29.txt",
+      "source_type": "ga4",
+      "source_class": "ga4",
+      "label": "GA4 Reporting Window",
+      "reporting_window": "2026-02-01 to 2026-02-29"
+    },
+    "src_sample_gsc": {
+      "id": "src_sample_gsc",
+      "kind": "file",
+      "location": "data/clients/sample_client/execution/gsc_2026_02_01_to_2026_02_29.txt",
+      "source_type": "gsc",
+      "source_class": "gsc",
+      "label": "GSC Reporting Window",
+      "reporting_window": "2026-02-01 to 2026-02-29"
+    },
+    "src_sample_producer_notes": {
+      "id": "src_sample_producer_notes",
+      "kind": "file",
+      "location": "data/clients/sample_client/notes/producer_notes_2026_03_13.txt",
+      "source_type": "note",
+      "source_class": "producer_note",
+      "label": "Producer Notes",
+      "run_bounded": true
+    },
+    "src_sample_template": {
+      "id": "src_sample_template",
+      "kind": "file",
+      "location": "data/clients/sample_client/templates/alignment_notes_template.txt",
+      "source_type": "template",
+      "source_class": "other",
+      "label": "Alignment Notes Template"
+    },
+    "src_sample_memory": {
+      "id": "src_sample_memory",
+      "kind": "file",
+      "location": "data/clients/sample_client/memory/client_memory.json",
+      "source_type": "memory",
+      "source_class": "other",
+      "label": "Client Memory"
+    }
+  }
+}

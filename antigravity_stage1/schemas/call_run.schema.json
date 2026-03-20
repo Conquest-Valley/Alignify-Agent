@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "title": "CallRun",
+  "required": [
+    "call_run_id",
+    "client_id",
+    "dp_id",
+    "scheduled_at",
+    "p0_instruction",
+    "current_state",
+    "source_refs",
+    "created_at",
+    "updated_at"
+  ],
+  "properties": {
+    "call_run_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "client_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "dp_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scheduled_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "p0_instruction": {
+      "type": "string"
+    },
+    "current_state": {
+      "type": "string",
+      "enum": [
+        "scheduled",
+        "pre_call_requested",
+        "context_loaded",
+        "strategy_extracted",
+        "campaign_status_built",
+        "commitments_reconciled",
+        "wins_ranked",
+        "downturns_explained",
+        "ambiguities_flagged",
+        "agenda_rendered",
+        "awaiting_dp_pre_call_review"
+      ]
+    },
+    "source_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

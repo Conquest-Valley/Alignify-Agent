@@ -1,0 +1,58 @@
+{
+  "canonical_categories": [
+    "Strategy",
+    "SEO / Copy",
+    "Local SEO / GBP",
+    "Web Development",
+    "CRO",
+    "Analytics / Tracking",
+    "Link Building / Authority",
+    "Paid Media",
+    "Social / Community",
+    "Email / CRM",
+    "Approvals / Client Dependencies",
+    "Internal Blockers"
+  ],
+  "default_aliases": [
+    {
+      "alias": "ppc",
+      "canonical_category": "Paid Media"
+    },
+    {
+      "alias": "paid search",
+      "canonical_category": "Paid Media"
+    },
+    {
+      "alias": "dev",
+      "canonical_category": "Web Development"
+    },
+    {
+      "alias": "development",
+      "canonical_category": "Web Development"
+    },
+    {
+      "alias": "tracking",
+      "canonical_category": "Analytics / Tracking"
+    },
+    {
+      "alias": "analytics",
+      "canonical_category": "Analytics / Tracking"
+    },
+    {
+      "alias": "content",
+      "canonical_category": "SEO / Copy"
+    },
+    {
+      "alias": "seo",
+      "canonical_category": "SEO / Copy"
+    },
+    {
+      "alias": "gbp",
+      "canonical_category": "Local SEO / GBP"
+    },
+    {
+      "alias": "approvals",
+      "canonical_category": "Approvals / Client Dependencies"
+    }
+  ]
+}

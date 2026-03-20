@@ -1,0 +1,16 @@
+{
+  "Meeting Summary": [
+    "must_include_strategy_anchor",
+    "must_include_current_truth_anchor"
+  ],
+  "Pending Approvals": [
+    "must_have_evidence"
+  ],
+  "Wins / Highlights": [
+    "must_have_evidence",
+    "must_have_strategic_relevance"
+  ],
+  "Input Required": [
+    "must_exist_when_unresolved_low_confidence_conflict_present"
+  ]
+}

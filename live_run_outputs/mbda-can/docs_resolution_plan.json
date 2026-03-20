@@ -1,0 +1,36 @@
+{
+  "client_name": "My Baby Donor Agency",
+  "client_id_optional": null,
+  "connector_required": "google_docs_drive",
+  "connector_runtime_note": "Actual content fetch must be executed through a Google Docs/Drive connector in Antigravity.",
+  "targets": [
+    {
+      "label": "February Report",
+      "source_ref": "https://scoretask.coalitiontechnologies.com/dashboard/XH2Wj1LUkwF1WFIcK9NPsSOFjCNDBw0NSpvl4nLi",
+      "doc_kind": "non_google_or_unknown",
+      "file_id": null,
+      "source_class": "narrative_memory",
+      "source_type": "prior_report",
+      "priority": "important",
+      "active": true,
+      "sub_ref_or_tab": null,
+      "notes": "One row per report link."
+    }
+  ],
+  "alignment_notes_target": null,
+  "strategy_targets": [],
+  "report_targets": [
+    {
+      "label": "February Report",
+      "source_ref": "https://scoretask.coalitiontechnologies.com/dashboard/XH2Wj1LUkwF1WFIcK9NPsSOFjCNDBw0NSpvl4nLi",
+      "doc_kind": "non_google_or_unknown",
+      "file_id": null,
+      "source_class": "narrative_memory",
+      "source_type": "prior_report",
+      "priority": "important",
+      "active": true,
+      "sub_ref_or_tab": null,
+      "notes": "One row per report link."
+    }
+  ]
+}

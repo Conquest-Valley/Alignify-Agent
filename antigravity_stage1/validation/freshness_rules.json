@@ -1,0 +1,11 @@
+{
+  "strategy": "acceptable_if_version_identified",
+  "quarterly_strategy": "must_match_active_benchmark_period",
+  "prior_report": "continuity_only",
+  "prior_note": "continuity_only",
+  "basecamp": "current_run_fetch_only",
+  "ga4": "explicit_reporting_window_required",
+  "gsc": "explicit_reporting_window_required",
+  "producer_note": "run_bounded_only",
+  "other": "unknown_until_classified"
+}
